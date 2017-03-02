@@ -1,6 +1,11 @@
 # Description
 
-Docker image to run [Androguard](https://github.com/androguard/androguard) and [Alpine Linux](https://alpinelinux.org).
+Docker image to run [Androguard](https://github.com/androguard/androguard) and [Alpine Linux](https://alpinelinux.org). It's based on:
+
+* Python3
+* Alpine Linux (latest)
+* Androguard
+  + I use the Python3 version available [here](https://github.com/appknox/androguard)
 
 # Usage
 
