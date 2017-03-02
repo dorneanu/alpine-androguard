@@ -6,7 +6,7 @@ Docker image to run [Androguard](https://github.com/androguard/androguard) and [
 
 ```
 $ docker pull dorneanu/alpine-androguard
-$ docker run -d -v /home/data:/DATA -p 8888:8888 -ti androguard jupyter notebook --ip 0.0.0.0 --port 8888 --no-browser
+$ docker run -v /home/data:/DATA -p 8888:8888 -ti dorneanu/alpine-androguard
 ```
 
 # Build
