@@ -1,0 +1,4 @@
+requests
+ipython
+jupyter
+git+https://github.com/androguard/androguard
